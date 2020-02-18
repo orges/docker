@@ -1,8 +1,8 @@
 FROM ubuntu:eoan
-LABEL maintainer "Haikal Khairuddin <z4nyx@outlook.com>"
+LABEL maintainer "orgesified gesishabani1@gmail.com>"
 
-# Malaysian timezone (GMT+8)	
-ENV TZ=Asia/Kuala_Lumpur
+# Berlin timezone (GMT+1)	
+ENV TZ=Berlin/Germany
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Tidy-up
