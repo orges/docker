@@ -24,4 +24,5 @@ RUN apt-get update -qq && \
 	ssh \
 	wget \
 	zip \
-	zstd
+	zstd \
+	clang
