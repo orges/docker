@@ -1,5 +1,5 @@
 FROM ubuntu:eoan
-LABEL maintainer "orgesified gesishabani1@gmail.com>"
+LABEL maintainer "orgesified <gesishabani1@gmail.com>"
 
 # Berlin timezone (GMT+1)	
 ENV TZ=Berlin/Germany
